@@ -1,7 +1,9 @@
+import SimpleSlider from "../components/Carousel";
+
 function Main() {
   <main>
     <div className="BannerSlider">
-      <h1>Banner Slider here</h1>
+      <h1><SimpleSlider /></h1>
     </div>
 
 

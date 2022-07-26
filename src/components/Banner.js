@@ -1,3 +1,6 @@
+import Slider from 'react-slick';
+
+
 const Banner = () => {
   return (
     <main>

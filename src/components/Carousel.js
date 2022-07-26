@@ -1,43 +1,27 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Carousel } from 'react-responsive-carousel'
+import Slider from 'react-slick';
+import '../../node_modules/slick-carousel/slick/slick.css';
+import '../../node_modules/slick-carousel/slick/slick-theme.css';
 
-const onChange = 1;
-const onClickItem = 1;
-const onClickThumb = 1;
+const SimpleSlider = () => {
+    const settings = {
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+    };
 
+    return (
+        <section>
+            <Slider {...settings}>
+                a
+                b
+                c
+            </Slider>
+        </section>
+    )
+}
 
-var DemoCarousel = React.createClass({
-    render() {
-        return (
-            <Carousel showArrows={true} onChange={onChange} onClickItem={onClickItem} onClickThumb={onClickThumb}>
-                <div>
-                    <img src="https://assets.coingecko.com/coins/images/18111/large/Doge.png?1630696110" />
-                    <p className="legend">Legend 1</p>
-                </div>
-                <div>
-                    <img src="https://assets.coingecko.com/coins/images/18111/large/Doge.png?1630696110" />
-                    <p className="legend">Legend 2</p>
-                </div>
-                <div>
-                    <img src="https://assets.coingecko.com/coins/images/18111/large/Doge.png?1630696110" />
-                    <p className="legend">Legend 3</p>
-                </div>
-                <div>
-                    <img src="https://assets.coingecko.com/coins/images/18111/large/Doge.png?1630696110" />
-                    <p className="legend">Legend 4</p>
-                </div>
-                <div>
-                    <img src="https://assets.coingecko.com/coins/images/18111/large/Doge.png?1630696110" />
-                    <p className="legend">Legend 5</p>
-                </div>
-                <div>
-                    <img src="https://assets.coingecko.com/coins/images/18111/large/Doge.png?1630696110" />
-                    <p className="legend">Legend 6</p>
-                </div>
-            </Carousel>
-        );
-    }
-});
-
-export default DemoCarousel;
+export default SimpleSlider;

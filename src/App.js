@@ -11,18 +11,11 @@ import GoogleButton from './components/GoogleButton';
 import Main from './pages/Main';
 import Head from './components/Head';
 import Banner from './components/Banner';
+import SimpleSlider from './components/Carousel';
 
 
 
 function App() {
-  // const [hello, setHello] = useState('')
-
-  // useEffect(() => {
-  //   axios.get('http://localhost:8080/api/hello')
-  //     .then(response => setHello(response.data))
-  //     .catch(error => console.log(error))
-  // }, []);
-
 
   return (
     <div className="App">
