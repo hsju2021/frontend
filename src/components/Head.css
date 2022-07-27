@@ -1,0 +1,87 @@
+.App-header {
+  height: auto;
+  text-align: center;
+  /* border: 1px solid blue; */
+}
+
+.App-header>h1 {
+  text-align: center;
+}
+
+.App-header>p {
+  font-size: 20px;
+  color: #333;
+  text-align: center;
+}
+
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  height: 50px;
+}
+
+.Navbar-left-div {
+  display: flex;
+  margin: 10px;
+}
+
+.Navbar-right-div {
+  display: flex;
+  margin: 10px;
+}
+
+.Navbar-left {
+  margin-left: 200px;
+  float: left;
+  text-align: left;
+  align-items: left;
+  display: flex;
+}
+
+.Navbar-right {
+  margin-right: 200px;
+  float: right;
+  text-align: right;
+  align-items: right;
+  display: flex;
+}
+
+.SearchBar {
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  padding: 0 200px;
+  height: 50px;
+  /* border: 1px solid peru; */
+}
+
+.SearchBar>input {
+  margin-left: 10px;
+  margin-right: 10px;
+  border: none;
+  background-color: lightgray;
+  border-radius: 25px;
+  padding: 5px;
+  width: 200px;
+  text-align: right;
+}
+
+.App-header {
+  align-items: center;
+  text-align: right;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.CategoryBar {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  height: 50px;
+  margin: 0 auto;
+  padding: 0 400px;
+  /* border: 1px solid peru; */
+}

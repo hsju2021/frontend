@@ -1,5 +1,4 @@
-import Slider from 'react-slick';
-
+import "./Banner.css"
 
 const Banner = () => {
   return (

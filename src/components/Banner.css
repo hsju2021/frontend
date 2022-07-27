@@ -1,0 +1,49 @@
+.BannerSlider {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 128px 200px;
+  padding: 150px 200px;
+  border: 1px solid black;
+}
+
+.Artist-title {
+  font-size: 40px;
+  margin: auto 400px;
+  color: #333;
+  text-align: left;
+}
+
+.Artist-slider {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 600px;
+  padding: 150px 100px;
+  border: 1px solid black;
+}
+
+.NewArrival-title {
+  font-size: 40px;
+  margin: auto 400px;
+  color: #333;
+  text-align: left;
+}
+
+.NewArrival-slider {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 600px;
+  padding: 150px 100px;
+  border: 1px solid black;
+}
+
+.Recommendations {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 600px;
+  padding: 150px 100px;
+  border: 1px solid black;
+}

@@ -9,9 +9,6 @@ function Navbar() {
             <div className='Navbar-left-div'>
               <p>NOTICE</p>
             </div>
-            <div className='Navbar-left-div'>
-              <p>Q&A</p>
-            </div>
           </div>
 
           <div className="Navbar-right">
