@@ -10,6 +10,9 @@ import {
 } from 'react-router-dom';
 import Login from './pages/Login';
 import ArtistPage from './pages/ArtistPage';
+import Testpage from './pages/Testpage';
+
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -19,6 +22,7 @@ root.render(
       <Route path="/" element={<App />} />  
       <Route path="login" element={<Login />} />
       <Route path="artist" element={<ArtistPage />} />
+      <Route path="/testpage" element={<Testpage />} />
     </Routes>
   </BrowserRouter>
 

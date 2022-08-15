@@ -77,11 +77,11 @@
 
 .CategoryBar {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   text-align: center;
   align-items: center;
   height: 50px;
-  margin: 0 auto;
+  margin: 0;
   padding: 0 400px;
-  /* border: 1px solid peru; */
+  white-space: normal;
 }

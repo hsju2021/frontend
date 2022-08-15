@@ -1,5 +1,4 @@
 import "./Banner.css"
-
 const Banner = () => {
   return (
     <main>
@@ -21,8 +20,7 @@ const Banner = () => {
           <h1>Recommendations Here</h1>
         </div>
       </div>
-
-
+      
     </main>
   )
 }

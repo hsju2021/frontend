@@ -17,8 +17,12 @@ const ArtistPage = () => {
       <div className='artist-profile-intro'>dogecoin is scam</div>
       <div className='artist-consumer-switch'><strong>Artist</strong> Consumer</div>
       <div className='artist-following'>
-        <div className='artist-following-title'><h1>Following</h1></div>
-        <div className='artist-following-carousel'>adfs</div>
+        <h1>Following</h1>
+        <div className='artist-following-carousel'></div>
+      </div>
+      <div className='my-things'>
+        <h1>My Things</h1>
+        <div className='my-things-carousel'></div>
       </div>
       <Footer />
     </>
